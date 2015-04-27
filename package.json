@@ -1,6 +1,6 @@
 {
   "name": "git-clean",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./lib/clean.js",
   "dependencies": {
     "async": "^0.9.0"
