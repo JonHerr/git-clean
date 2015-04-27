@@ -1,0 +1,119 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\jherr\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\jherr\\AppData\\Local\\Temp\\npm-1304-1H62Unf1\\1430157570721-0.036496070912107825\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\jherr\AppData\Local\Temp\npm-1304-1H62Unf1\1430157570721-0.036496070912107825\tmp.tgz
+13 verbose folder .
+14 info prepublish git-clean@0.0.1
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\jherr\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 22078505-721-0-036496070912107825-tmp-tgz tar://C:\Users\jherr\AppData\Local\Temp\npm-1304-1H62Unf1\1430157570721-0.036496070912107825\tmp.tgz
+18 verbose lock tar://C:\Users\jherr\AppData\Local\Temp\npm-1304-1H62Unf1\1430157570721-0.036496070912107825\tmp.tgz C:\Users\jherr\AppData\Roaming\npm-cache\22078505-721-0-036496070912107825-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 22078505-721-0-036496070912107825-tmp-tgz tar://C:\Users\jherr\AppData\Local\Temp\npm-1304-1H62Unf1\1430157570721-0.036496070912107825\tmp.tgz
+22 silly lockFile 22078505-721-0-036496070912107825-tmp-tgz tar://C:\Users\jherr\AppData\Local\Temp\npm-1304-1H62Unf1\1430157570721-0.036496070912107825\tmp.tgz
+23 verbose tar unpack C:\Users\jherr\AppData\Local\Temp\npm-1304-1H62Unf1\1430157570721-0.036496070912107825\tmp.tgz
+24 silly lockFile a02bac69-pm-cache-git-clean-0-0-1-package tar://C:\Users\jherr\AppData\Roaming\npm-cache\git-clean\0.0.1\package
+25 verbose lock tar://C:\Users\jherr\AppData\Roaming\npm-cache\git-clean\0.0.1\package C:\Users\jherr\AppData\Roaming\npm-cache\a02bac69-pm-cache-git-clean-0-0-1-package.lock
+26 silly lockFile 22078505-721-0-036496070912107825-tmp-tgz tar://C:\Users\jherr\AppData\Local\Temp\npm-1304-1H62Unf1\1430157570721-0.036496070912107825\tmp.tgz
+27 verbose lock tar://C:\Users\jherr\AppData\Local\Temp\npm-1304-1H62Unf1\1430157570721-0.036496070912107825\tmp.tgz C:\Users\jherr\AppData\Roaming\npm-cache\22078505-721-0-036496070912107825-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+33 silly gunzTarPerm extractEntry README.md
+34 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+35 silly gunzTarPerm extractEntry bin/git-clean
+36 silly gunzTarPerm modified mode [ 'bin/git-clean', 438, 420 ]
+37 silly gunzTarPerm extractEntry lib/clean.js
+38 silly gunzTarPerm modified mode [ 'lib/clean.js', 438, 420 ]
+39 silly lockFile a02bac69-pm-cache-git-clean-0-0-1-package tar://C:\Users\jherr\AppData\Roaming\npm-cache\git-clean\0.0.1\package
+40 silly lockFile a02bac69-pm-cache-git-clean-0-0-1-package tar://C:\Users\jherr\AppData\Roaming\npm-cache\git-clean\0.0.1\package
+41 silly lockFile 22078505-721-0-036496070912107825-tmp-tgz tar://C:\Users\jherr\AppData\Local\Temp\npm-1304-1H62Unf1\1430157570721-0.036496070912107825\tmp.tgz
+42 silly lockFile 22078505-721-0-036496070912107825-tmp-tgz tar://C:\Users\jherr\AppData\Local\Temp\npm-1304-1H62Unf1\1430157570721-0.036496070912107825\tmp.tgz
+43 silly lockFile 3a52ce78- .
+44 silly lockFile 3a52ce78- .
+45 silly publish { name: 'git-clean',
+45 silly publish   version: '0.0.1',
+45 silly publish   main: './lib/clean.js',
+45 silly publish   dependencies: { async: '^0.9.0' },
+45 silly publish   description: 'installing npm install -g',
+45 silly publish   devDependencies: {},
+45 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+45 silly publish   bin: { 'git-clean': 'bin/git-clean' },
+45 silly publish   keywords: [ 'git', 'branch', 'management' ],
+45 silly publish   preferGlobal: true,
+45 silly publish   repository: { type: 'git', url: 'https://github.com/JonHerr/git-clean.git' },
+45 silly publish   author: { name: 'Jon Herr' },
+45 silly publish   license: 'ISC',
+45 silly publish   bugs: { url: 'https://github.com/JonHerr/git-clean/issues' },
+45 silly publish   homepage: 'https://github.com/JonHerr/git-clean',
+45 silly publish   readme: '# git-clean\r\n\r\ninstalling npm install -g\r\n\r\nUsage for git clean local\r\n    -h      help\r\n    -dr     invokes a dry run\r\n    -path=  overrides folder for the git directory to be cleaned\r\n    -v      executes verbose mode\r\n    -D      force branch deletion',
+45 silly publish   readmeFilename: 'README.md',
+45 silly publish   _id: 'git-clean@0.0.1',
+45 silly publish   _shasum: 'b9a21a13d814f5730eaf294cb0131865eeb3d646',
+45 silly publish   _from: '.' }
+46 verbose url raw git-clean
+47 verbose url resolving [ 'https://registry.npmjs.org/', './git-clean' ]
+48 verbose url resolved https://registry.npmjs.org/git-clean
+49 info trying registry request attempt 1 at 10:59:30
+50 http PUT https://registry.npmjs.org/git-clean
+51 http 403 https://registry.npmjs.org/git-clean
+52 verbose headers { date: 'Mon, 27 Apr 2015 17:59:31 GMT',
+52 verbose headers   server: 'Apache',
+52 verbose headers   'content-type': 'application/json',
+52 verbose headers   'cache-control': 'max-age=60',
+52 verbose headers   'content-length': '95',
+52 verbose headers   'accept-ranges': 'bytes',
+52 verbose headers   via: '1.1 varnish',
+52 verbose headers   'x-served-by': 'cache-lax1424-LAX',
+52 verbose headers   'x-cache': 'MISS',
+52 verbose headers   'x-cache-hits': '0',
+52 verbose headers   'x-timer': 'S1430157570.947997,VS0,VE182',
+52 verbose headers   'keep-alive': 'timeout=10, max=50',
+52 verbose headers   connection: 'Keep-Alive' }
+53 error publish Failed PUT 403
+54 error Error: "You cannot publish over the previously published version 0.0.1." : git-clean
+54 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:273:14)
+54 error     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:211:65)
+54 error     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
+54 error     at Request.EventEmitter.emit (events.js:98:17)
+54 error     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:893:14)
+54 error     at Request.EventEmitter.emit (events.js:117:20)
+54 error     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:844:12)
+54 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+54 error     at _stream_readable.js:919:16
+54 error     at process._tickCallback (node.js:419:13)
+55 error If you need help, you may report this *entire* log,
+55 error including the npm and node versions, at:
+55 error     <http://github.com/npm/npm/issues>
+56 error System Windows_NT 6.1.7601
+57 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+58 error cwd C:\Users\jherr\WebstormProjects\clean
+59 error node -v v0.10.28
+60 error npm -v 1.4.9
+61 verbose exit [ 1, true ]
