@@ -13,6 +13,11 @@
   "bin": {
     "git-clean": "bin/git-clean"
   },
+  "keywords": [
+    "git",
+    "branch",
+    "management"
+  ],
   "preferGlobal": true,
   "repository": {
     "type": "git",
