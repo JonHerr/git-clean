@@ -1,8 +1,11 @@
 # git-clean
 
-installing npm install -g
+### This tool is designed to delete all local branches with tracking where the tracked branch has been deleted from the remote server.
 
-Usage for git clean local
+it is recommended to install using: npm install -g git-clean
+
+Usage for git-clean
+
     -h      help
     -dr     invokes a dry run
     -path=  overrides folder for the git directory to be cleaned
